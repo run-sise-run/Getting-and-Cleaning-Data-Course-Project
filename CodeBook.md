@@ -14,16 +14,16 @@ The data pertains to an experiment on a group of 30 volunteers, performing activ
 
 ## Relevant Files in `data/`
 
-Filename                Description
------------------       ------------
-`subject_train.txt`     Subject codes (1-30) identifying which subject produced the corresponsing row of data in `X_train.txt`.
-`X_train.txt`           Time and frequency data gathered from volunteers. 561 columns of various acceleration and gyroscopic data on the X, Y, and Z axes.
-`y_train.txt`           Activity codes (1-6) for the the train set data.
-`subject_test.txt`      Subject codes (1-30) identifying which subject produced the corresponsing row of data in `X_test.txt`.
-`X_test.txt`            Time and frequency data gathered from volunteers.
-`y_test.txt`            Activity codes (1-6) for the the test set data.
-`activity_labels.txt`   Contains 2 columns, identifying the code (1-6) with the human-readable activity name.
-`features.txt`          Column names of the `X_train.txt` and `X_test.txt` files.
+Filename             |   Description
+-----------------    |   ------------
+`subject_train.txt`  |   Subject codes (1-30) identifying which subject produced the corresponsing row of data in `X_train.txt`.
+`X_train.txt`        |   Time and frequency data gathered from volunteers. 561 columns of various acceleration and gyroscopic data on the X, Y, and Z axes.
+`y_train.txt`        |   Activity codes (1-6) for the the train set data.
+`subject_test.txt`   |   Subject codes (1-30) identifying which subject produced the corresponsing row of data in `X_test.txt`.
+`X_test.txt`         |   Time and frequency data gathered from volunteers.
+`y_test.txt`         |   Activity codes (1-6) for the the test set data.
+`activity_labels.txt`|   Contains 2 columns, identifying the code (1-6) with the human-readable activity name.
+`features.txt`       |   Column names of the `X_train.txt` and `X_test.txt` files.
 
 
 ## Steps for Cleaning
